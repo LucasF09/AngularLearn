@@ -24,7 +24,7 @@ var PessoaDao = /** @class */ (function () {
         console.log('logica para selecionar');
         return new Pessoa_1.default('', '');
     };
-    PessoaDao.prototype.selcionarTodos = function () {
+    PessoaDao.prototype.selecionarTodos = function () {
         console.log('logica para selecionar Todos');
         return [new Pessoa_1.default('', '')];
     };

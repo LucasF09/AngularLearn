@@ -17,11 +17,11 @@ export class PessoaDao implements DaoInterface {
       console.log('logica para remoção')
       return new Pessoa ('','')
     }
-    selecionar (id: number ): Pessoa {
+    selecionar (id: number): Pessoa {
       console.log('logica para selecionar')
       return new Pessoa ('','')
     }
-    selcionarTodos ():[any] {
+    selecionarTodos ():[any] {
       console.log('logica para selecionar Todos')
       return [new Pessoa ('','')]
 

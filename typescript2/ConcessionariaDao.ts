@@ -13,7 +13,7 @@ export class ConcessionariaDao implements DaoInterface {
       console.log('logica de atualizar')
       return true
     }
-    remover(id: number):Concessionaria{
+    remover(id: number): Concessionaria{
       console.log('logica para remoção')
       return new Concessionaria('',[])
     }
@@ -21,7 +21,7 @@ export class ConcessionariaDao implements DaoInterface {
       console.log('logica para selecionar')
       return new Concessionaria('',[])
     }
-    selcionarTodos ():[any] {
+    selcionarTodos (): [any] {
       console.log('logica para selecionar Todos')
       return [new Concessionaria('',[])]
 
